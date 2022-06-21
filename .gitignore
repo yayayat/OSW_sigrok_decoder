@@ -1,0 +1,13 @@
+#exclude every file with no extension
+*
+!/**/
+!*.*
+
+#exclude . dirs and files
+.*
+
+#exclude pycache dir
+__pycache__/
+
+#files we do not want to ignore
+!.gitignore
